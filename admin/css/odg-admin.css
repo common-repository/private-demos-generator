@@ -1,0 +1,42 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#o-demos.postbox
+{
+    padding: 10px;
+}
+[name="o-demos[email-message]"]
+{
+    min-height: 210px;
+}
+
+
+.odg-highlight{
+    background-color: #e0dbdb;
+}
+
+#db_connect_loading{
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-top: 3px;
+    background-size: cover;
+}
+
+.loading_active{
+    background-image: url('../images/spinner.gif');
+}
+
+.success_checked{
+    background-image: url('../images/check.svg');
+}
+
+.failed_checked{
+    background-image: url('../images/path.svg');
+}
+
+#menu-posts-o-demos .wp-menu-image
+{
+    max-width: 20px;
+}
